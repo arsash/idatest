@@ -1,28 +1,28 @@
 <template>
   <div id="app">
-    <img alt="Vue logo" src="./assets/logo.png">
-    <HelloWorld msg="Welcome to Your Vue.js App"/>
+    <header-block/>
+    <rent-block>
+      <RentItem>dfgdfgdfg</RentItem>
+    </rent-block>
   </div>
 </template>
 
 <script>
-import HelloWorld from './components/HelloWorld.vue'
+import HeaderBlock from './components/header.vue'
+import RentBlock from './components/rent.vue'
+
 
 export default {
   name: 'App',
   components: {
-    HelloWorld
+    HeaderBlock,
+    RentBlock
   }
 }
 </script>
 
 <style>
 #app {
-  font-family: Avenir, Helvetica, Arial, sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  text-align: center;
-  color: #2c3e50;
-  margin-top: 60px;
+  
 }
 </style>
