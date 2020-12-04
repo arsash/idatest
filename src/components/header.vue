@@ -66,7 +66,7 @@ export default {
   transition: 0.7s;
 }
 .controls img:hover {
-  transform: scale(1.1);
+  transform: scale(1.3);
   transition: 0.7s;
 }
 
